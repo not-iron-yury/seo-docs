@@ -1,4 +1,5 @@
 node_modules
-.vitepress
+.vitepress/dist
+.vitepress/cache
 черновик.md
 шаблон.md

@@ -1,0 +1,222 @@
+/**
+ * Customize default theme styling by overriding CSS variables:
+ * https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css
+ */
+
+/**
+ * Цвета
+ *
+ * Каждый цвет имеет одинаковую цветовую шкалу с 3 уровнями 
+ * сплошных цветов (с разной яркостью) и 1 мягким цветом.ч
+ *
+ * - `XXX-1`: Самый сплошной цвет, используемый в основном для цветного текста.
+ *   Он должен соответствовать коэффициенту контрастности при использовании поверх `XXX-soft`.
+ *
+ * - `XXX-2`: Цвет, используемый в основном для состояния наведения курсора на кнопку.
+ *
+ * - `XXX-3`: Цвет для сплошного фона, например, цвет фона кнопки.
+ *   Он должен соответствовать коэффициенту контрастности с чисто белым (#ffffff) текстом, расположенным поверх него.
+ *
+ * - `XXX-soft`: Цвет, используемый для ненавязчивого фона, например, для пользовательских контейнеров или значков.
+ *   Он должен соответствовать коэффициенту контрастности при размещении цветов `XXX-1` поверх него.
+ *
+ *   Мягкий цвет должен быть полупрозрачным с альфа-каналом. Это крайне важно,
+ *   поскольку позволяет добавлять несколько «мягких» цветов друг на друга,
+ *   для создания акцента, например, при наличии встроенного блока кода внутри пользовательских контейнеров.
+ *
+ * - `default`: Цвет, используемый исключительно для ненавязчивого обозначения 
+ *   без каких-либо особых значений, например, цвет фона при наведении курсора на меню.
+ *
+ * - `brand`: Используется для основных цветов бренда, например, для текста ссылок, кнопок с фирменной темой и т. д.
+ *
+ * - `tip`: Используется для отображения полезной информации. В теме по умолчанию используется фирменный цвет.
+ *
+ * - `warning`: Используется для предупреждения пользователей. Используется в пользовательских контейнерах, значках и т. д.
+ *
+ * - `danger`: Используется для отображения сообщений об ошибке или опасности пользователям. 
+ *   Используется в пользовательских контейнерах, значках и т. д
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-c-default-1: var(--vp-c-gray-1);
+  --vp-c-default-2: var(--vp-c-gray-2);
+  --vp-c-default-3: var(--vp-c-gray-3);
+  --vp-c-default-soft: var(--vp-c-gray-soft);
+
+  --vp-c-brand-1: var(--vp-c-indigo-1);
+  --vp-c-brand-2: var(--vp-c-indigo-2);
+  --vp-c-brand-3: var(--vp-c-indigo-3);
+  --vp-c-brand-soft: var(--vp-c-indigo-soft);
+
+  --vp-c-tip-1: var(--vp-c-brand-1);
+  --vp-c-tip-2: var(--vp-c-brand-2);
+  --vp-c-tip-3: var(--vp-c-brand-3);
+  --vp-c-tip-soft: var(--vp-c-brand-soft);
+
+  --vp-c-warning-1: var(--vp-c-yellow-1);
+  --vp-c-warning-2: var(--vp-c-yellow-2);
+  --vp-c-warning-3: var(--vp-c-yellow-3);
+  --vp-c-warning-soft: var(--vp-c-yellow-soft);
+
+  --vp-c-danger-1: var(--vp-c-red-1);
+  --vp-c-danger-2: var(--vp-c-red-2);
+  --vp-c-danger-3: var(--vp-c-red-3);
+  --vp-c-danger-soft: var(--vp-c-red-soft);
+}
+
+/**
+ * Component: Button
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-button-brand-border: transparent;
+  --vp-button-brand-text: var(--vp-c-white);
+  --vp-button-brand-bg: var(--vp-c-brand-3);
+  --vp-button-brand-hover-border: transparent;
+  --vp-button-brand-hover-text: var(--vp-c-white);
+  --vp-button-brand-hover-bg: var(--vp-c-brand-2);
+  --vp-button-brand-active-border: transparent;
+  --vp-button-brand-active-text: var(--vp-c-white);
+  --vp-button-brand-active-bg: var(--vp-c-brand-1);
+}
+
+/**
+ * Component: Home
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe 30%, #41d1ff);
+
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, #bd34fe 50%, #47caff 50%);
+  --vp-home-hero-image-filter: blur(44px);
+}
+
+@media (min-width: 640px) {
+  :root {
+    --vp-home-hero-image-filter: blur(56px);
+  }
+}
+
+@media (min-width: 960px) {
+  :root {
+    --vp-home-hero-image-filter: blur(68px);
+  }
+}
+
+/**
+ * Component: Custom Block
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-custom-block-tip-border: transparent;
+  --vp-custom-block-tip-text: var(--vp-c-text-1);
+  --vp-custom-block-tip-bg: var(--vp-c-brand-soft);
+  --vp-custom-block-tip-code-bg: var(--vp-c-brand-soft);
+}
+
+/* -------------------------------------------------------------------------- */
+
+.vp-doc a {
+  text-decoration: none;
+}
+
+main .vp-doc h3 {
+  letter-spacing: -0.01em;
+  margin: 3.5rem 0 1.25rem;
+  font-size: 19px;
+}
+
+/* -------------------------------------------------------------------------- */
+
+.text-block {
+  border-radius: 8px;
+  margin: 28px 0;
+  padding: 20px 24px 4px 24px;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.6;
+
+  color: var(--vp-c-text-1);
+  background-color: var(--vp-c-gray-soft);
+}
+
+.text-block :last-child {
+  margin-bottom: 1.2em;
+}
+
+.text-block > p {
+  margin: 0;
+}
+
+.text-block > p:not(:last-child) {
+  margin: 0 0 10px 0;
+}
+
+.text-block--warning {
+  border-left: 5px solid #f44336;
+}
+.text-block--info {
+  border-left: 5px solid #2196f3;
+}
+.text-block--tip {
+  border-left: 5px solid #4caf50;
+}
+
+.info-block {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+
+  margin-top: 20px;
+  padding: 10px 0;
+
+  background-color: var(--vp-c-gray-soft);
+
+  font-size: 14px;
+  font-family: monospace;
+}
+
+.vp-doc ul > .info-block-itm {
+  margin: 0;
+  list-style-type: none;
+  padding: 0;
+}
+
+/* -------------------------------------------------------------------------- */
+
+* {
+  font-weight: 300;
+}
+
+.vp-doc li {
+  line-height: 1.7;
+}
+
+.vp-doc .mt-20 {
+  margin-top: 20px;
+}
+.vp-doc .mt-30 {
+  margin-top: 30px;
+}
+.vp-doc .mt-40 {
+  margin-top: 40px;
+}
+.vp-doc .mb-40 {
+  margin-bottom: 40px;
+}
+
+.vp-doc .ml-30 {
+  margin-left: 30px;
+}
+
+.vp-doc ul.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.VPDoc[data-v-10119189] {
+  padding-top: 20px;
+}
