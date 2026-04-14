@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress';
 
 export default defineConfig({
-  base: '/seo-docs/',
+  base: '/',
   srcDir: 'www',
   title: 'SEO docs',
   description: 'Документация по SEO, чек-листы, гайды',
