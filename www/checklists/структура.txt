@@ -1,0 +1,85 @@
+/docs/
+  /principles/
+    scope.md                   # Цели проекта, что включено / исключено
+    guidelines.md              # Общие правила оформления, структура документации
+    audit-rules.md             # Правила составления чек-листов и аудита
+
+  /technical/
+    indexing.md                # Проверка индексации, robots, meta robots
+    canonical.md               # Canonical, дубли, пагинация
+    sitemap.md                 # Sitemap.xml, приоритеты, обновление
+    http-status.md             # Статусы HTTP и редиректы
+    js-rendering.md            # JavaScript SEO, SSR, CSR
+    cwv.md                     # Core Web Vitals, скорость
+    mobile-rendering.md        # Mobile-first, адаптивность
+    security.md                # HTTPS, mixed content, malware
+
+  /content/
+    title.md                   # Title, правила и edge-cases
+    meta-description.md        # Meta description, формулировка
+    h-structure.md             # H1-H3, иерархия, подзаголовки
+    semantic-content.md        # Семантика, intent, кластеры
+    structured-data.md         # JSON-LD, Article, Product, FAQ, Breadcrumb
+    content-quality.md         # Thin content, дубли, обновления
+    images.md                  # ALT, размеры, форматы, image SEO
+
+  /internal/
+    internal-links.md          # Внутренняя перелинковка, анкор, логика
+    site-architecture.md       # Архитектура сайта, глубина, URL
+    pagination-facets.md       # Пагинация, rel="next/prev", canonical
+
+  /external-links/
+    backlinks.md               # Профиль ссылок, качество, анкор
+    link-dynamics.md           # Динамика, рост/падение, риски санкций
+    crowd-pr.md                # Крауд, PR, аутрич
+
+  /behavior/
+    ctr.md                     # CTR сниппетов
+    dwell-time.md              # Время на странице, возвраты
+    interaction.md             # Взаимодействие с контентом, погостики
+
+  /commercial/
+    contacts.md                # Контакты и реквизиты
+    pricing-availability.md    # Цены, наличие, доставка
+    guarantees.md              # Гарантии, возвраты
+    products-services.md       # Ассортимент, карточки товаров
+
+  /brand/
+    brand-queries.md           # Частотность бренд-запросов
+    navigation-demand.md       # Навигационный спрос
+    mentions-reviews.md        # Упоминания и отзывы
+    reputation.md              # Репутация бренда
+
+  /regional/
+    geo-targeting.md           # Геопривязка страниц
+    localization.md            # hreflang, x-default
+    local-pages.md             # Локальные страницы, филиалы
+
+  /mobile/
+    mobile-indexing.md         # Mobile-first индексирование
+    mobile-ux.md               # UX и адаптивность
+    mobile-speed.md            # Скорость на мобильных
+
+  /security/
+    https.md                   # Сертификаты SSL, корректность
+    mixed-content.md           # Проверка смешанного контента
+    malware-spam.md            # Вредоносные страницы, спам
+
+  /ux/
+    navigation.md              # Логика навигации
+    readability.md             # Читаемость текста, структура
+    ui-elements.md             # Элементы интерфейса, кликабельность
+
+  /freshness/
+    update-frequency.md        # Частота обновления контента
+    content-dates.md           # Дата публикации / актуальности
+
+  /social/
+    social-mentions.md         # Упоминания в соцсетях
+    social-activity.md         # Лайки, репосты, шеры
+
+  /trust-eat/
+    authorship.md              # Авторство контента
+    expertise.md               # Экспертность авторов
+    sources.md                 # Источники и проверка информации
+    reputation-signals.md      # Репутация и рейтинги
