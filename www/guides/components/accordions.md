@@ -1,4 +1,4 @@
-# Аккордеоны / Спойлеры / FAQ {#accordions}
+# Аккордеоны / Спойлеры {#accordions}
 
 <ul class="info-block">
   <li class="info-block-itm">Тип компонента: Контентные переключатели</li>
