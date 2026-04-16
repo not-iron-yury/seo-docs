@@ -1,5 +1,3 @@
-<Breadcrumb title="Переключатель вида списка"/>
-
 # Переключатель вида списка (List / Grid) {#view-switcher}
 
 <ul class="info-block">

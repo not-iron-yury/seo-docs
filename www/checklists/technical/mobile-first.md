@@ -1,5 +1,3 @@
-<Breadcrumb title="Mobile-first"/>
-
 # Чек-лист: Mobile-first рендеринг и адаптивность
 
 <div class="text-block">

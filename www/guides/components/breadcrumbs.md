@@ -1,5 +1,3 @@
-<Breadcrumb title="Хлебные крошки"/>
-
 # Хлебные крошки (Breadcrumbs) {#breadcrumbs}
 
 <ul class="info-block">

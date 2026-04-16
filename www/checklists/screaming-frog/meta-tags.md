@@ -1,5 +1,3 @@
-<Breadcrumb title="Мета-теги"/>
-
 # Мета-теги (Title / Description) {#meta-tags}
 
 <ul class="info-block">

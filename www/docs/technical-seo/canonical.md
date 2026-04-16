@@ -1,5 +1,3 @@
-<Breadcrumb title="Canonical"/>
-
 # Canonical {#canonical}
 
 <!-- --- -->

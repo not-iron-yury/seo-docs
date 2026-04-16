@@ -1,5 +1,3 @@
-<Breadcrumb title="Дубли"/>
-
 # Дубли (контент и URL) {#duplicates}
 
 <ul class="info-block">

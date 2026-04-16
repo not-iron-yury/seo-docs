@@ -2,11 +2,7 @@
 import DefaultTheme from 'vitepress/theme';
 import { h } from 'vue';
 import './style.css';
-
-import Accordions from './components/Accordions.vue';
-import Breadcrumb from './components/Breadcrumb.vue';
-import Checklist from './components/Checklist.vue';
-import Marker from './components/Marker.vue';
+// import Breadcrumb from './components/Breadcrumb.vue';
 
 /** @type {import('vitepress').Theme} */
 export default {
@@ -17,9 +13,6 @@ export default {
     });
   },
   enhanceApp({ app, router, siteData }) {
-    app.component('Checklist', Checklist);
-    app.component('Breadcrumb', Breadcrumb);
-    app.component('Marker', Marker);
-    app.component('Accordions', Accordions);
+    // app.component('Breadcrumb', Breadcrumb);
   },
 };

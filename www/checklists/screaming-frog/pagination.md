@@ -1,5 +1,3 @@
-<Breadcrumb title="Пагинация"/>
-
 # Пагинация {#pagination}
 
 <ul class="info-block">

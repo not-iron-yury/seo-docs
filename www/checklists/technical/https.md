@@ -1,5 +1,3 @@
-<Breadcrumb title="HTTPS и безопасность"/>
-
 # Чек-лист: HTTPS и безопасность
 
 <div class="text-block">

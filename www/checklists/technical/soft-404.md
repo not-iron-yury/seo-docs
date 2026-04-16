@@ -1,5 +1,3 @@
-<Breadcrumb title="Soft 404"/>
-
 # Чек-лист: Soft 404 и ошибочные страницы
 
 <div class="text-block">

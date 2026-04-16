@@ -1,5 +1,3 @@
-<Breadcrumb title="Canonical и дубли"/>
-
 # Чек-лист: Canonical и дубли
 
 <!-- --- -->

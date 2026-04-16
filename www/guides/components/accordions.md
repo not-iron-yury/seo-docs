@@ -1,5 +1,3 @@
-<Breadcrumb title="Аккордеоны"/>
-
 # Аккордеоны / Спойлеры / FAQ {#accordions}
 
 <ul class="info-block">

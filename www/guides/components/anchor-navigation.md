@@ -1,5 +1,3 @@
-<Breadcrumb title="Якорная навигация"/>
-
 # Якорная навигация внутри страницы {#anchor-navigation}
 
 <ul class="info-block">

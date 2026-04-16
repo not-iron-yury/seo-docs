@@ -1,5 +1,3 @@
-<Breadcrumb title=""/>
-
 # X-Robots-Tag
 
 <div class="text-block text-block--warning">

@@ -1,5 +1,3 @@
-<Breadcrumb title="Фильтры"/>
-
 # Фильтры (критично для e-commerce) {#filters}
 
 <ul class="info-block">

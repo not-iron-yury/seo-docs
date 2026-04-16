@@ -1,5 +1,3 @@
-<Breadcrumb title=""/>
-
 # Перелинковка {#internal-links}
 
 <ul class="info-block">

@@ -1,5 +1,3 @@
-<Breadcrumb title="robots"/>
-
 # Чек-лист: Индексации страниц (robots.txt, meta robots)
 
 <!-- --------- -->

@@ -1,5 +1,3 @@
-<Breadcrumb title="Табы"/>
-
 # Табы {#tabs}
 
 <ul class="info-block">

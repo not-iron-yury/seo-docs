@@ -1,5 +1,3 @@
-<Breadcrumb title="Robots vs Noindex"/>
-
 # Robots vs Noindex - разница и применение {#robots-vs-noindex}
 
 ## Основные различия {#differences}

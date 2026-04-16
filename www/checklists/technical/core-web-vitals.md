@@ -1,5 +1,3 @@
-<Breadcrumb title="Core Web Vitals"/>
-
 # Чек-лист: Core Web Vitals (основные веб-показатели)
 
 <div class="text-block">

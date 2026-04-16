@@ -1,5 +1,3 @@
-<Breadcrumb title="Введение"/>
-
 # SEO-friendly компоненты {#seo-friendly-components}
 
 ## Базовый принцип {#1}

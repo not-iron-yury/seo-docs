@@ -1,5 +1,3 @@
-<Breadcrumb title="Микроразметка"/>
-
 # Чек-лист: Микроразметка (Structured Data)
 
 <div class="text-block">

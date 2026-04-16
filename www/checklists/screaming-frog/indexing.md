@@ -1,5 +1,3 @@
-<Breadcrumb title="Индексация"/>
-
 # Индексация {#indexing}
 
 <ul class="info-block">

@@ -1,5 +1,3 @@
-<Breadcrumb title="Коды ответов"/>
-
 # Коды ответов {#response-codes}
 
 <ul class="info-block">

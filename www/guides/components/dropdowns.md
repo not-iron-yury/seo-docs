@@ -1,5 +1,3 @@
-<Breadcrumb title="Дропдауны"/>
-
 # Dropdowns (Mega Menu) {#dropdowns}
 
 <ul class="info-block">

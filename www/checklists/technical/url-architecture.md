@@ -1,5 +1,3 @@
-<Breadcrumb title="Архитектура URL"/>
-
 # Чек-лист: Архитектура URL
 
 <div class="text-block">

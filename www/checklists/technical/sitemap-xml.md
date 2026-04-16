@@ -1,5 +1,3 @@
-<Breadcrumb title="Sitemap.xml"/>
-
 # Чек-лист: Sitemap.xml
 
 <!-- --------- -->

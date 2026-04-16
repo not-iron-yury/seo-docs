@@ -1,5 +1,3 @@
-<Breadcrumb title="Фильтры"/>
-
 # Фильтры (каталога / внутри карточек товаров) {#filters}
 
 <ul class="info-block">
