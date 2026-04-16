@@ -303,7 +303,7 @@
   <li>✔️ Результат фильтра доступен при прямом переходе по URL</li>
 </ul>
 
-### Инструменты для проверки {#tools-for-checking}
+## Инструменты проверки {#checking-tools}
 
 - DevTools → View Page Source
 - DevTools → Network

@@ -141,7 +141,7 @@ const view = ref('grid')
 
 <!------------->
 
-### Инструменты для проверки {#tools-for-checking}
+## Инструменты проверки {#checking-tools}
 
 - DevTools → Network
 - DevTools → Elements

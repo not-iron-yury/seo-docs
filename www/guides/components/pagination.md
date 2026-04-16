@@ -183,7 +183,7 @@ const loadMore = async () => {
   <li>✔️ Вкладки не загружают контент через API</li>
 </ul>
 
-### Инструменты для проверки {#tools-for-checking}
+## Инструменты проверки {#checking-tools}
 
 - DevTools → View Page Source
 - DevTools → Network

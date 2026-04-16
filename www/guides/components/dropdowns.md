@@ -111,7 +111,7 @@
   <li>✔️ Ссылки доступны без JavaScript</li>
 </ul>
 
-### Инструменты для проверки {#tools-for-checking}
+## Инструменты проверки {#checking-tools}
 
 - DevTools → View Page Source
 - DevTools → Network

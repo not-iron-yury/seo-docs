@@ -155,7 +155,7 @@ const toggle = (index) => {
   <li>✔️ При отключенном JavaScript текст остаётся в HTML</li>
 </ul>
 
-### Инструменты для проверки {#tools-for-checking}
+## Инструменты проверки {#checking-tools}
 
 - DevTools → View Page Source
 - DevTools → Network
