@@ -5,15 +5,28 @@ export default defineConfig({
   srcDir: 'www',
   title: 'SEO docs',
   description: 'Документация по SEO, чек-листы, гайды',
+  appearance: 'dark',
   themeConfig: {
     nav: [
       // { text: 'Home', link: '/' },
       // { text: 'Технические гайды', link: '/guides/' },
-      { text: 'Технические гайды', link: '/guides/components/introduction.html' },
+      {
+        text: 'Технические гайды',
+        link: '/guides/components/introduction.html',
+        activeMatch: '^/guides/',
+      },
       // { text: 'Чеклисты', link: '/checklists/' },
-      { text: 'Чеклисты', link: '/checklists/technical/robots.html' },
+      {
+        text: 'Чеклисты',
+        link: '/checklists/technical/robots.html',
+        activeMatch: '^/checklists/',
+      },
       // { text: 'Конспекты', link: '/docs/' },
-      { text: 'Конспекты', link: '/docs/technical-seo/canonical.html' },
+      {
+        text: 'Конспекты',
+        link: '/docs/technical-seo/canonical.html',
+        activeMatch: '^/docs/',
+      },
     ],
 
     head: [
