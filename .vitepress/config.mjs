@@ -119,6 +119,7 @@ export default defineConfig({
             { text: 'FAQ', link: '/guides/components/faq' },
             { text: 'Filters', link: '/guides/components/filters' },
             { text: 'Pagination', link: '/guides/components/pagination' },
+            { text: 'Product page', link: '/guides/components/product-page' },
             { text: 'Tabs', link: '/guides/components/tabs' },
             { text: 'View switcher', link: '/guides/components/view-switcher' },
           ],
