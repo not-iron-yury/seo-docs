@@ -126,6 +126,7 @@ export default defineConfig({
           items: [
             { text: 'Введение', link: '/guides/structured-data/introduction' },
             { text: 'Breadcrumbs', link: '/guides/structured-data/breadcrumbs' },
+            { text: 'Category Page', link: '/guides/structured-data/category-page' },
             { text: 'FAQ', link: '/guides/structured-data/faq' },
             { text: 'Product page', link: '/guides/structured-data/product-page' },
           ],
